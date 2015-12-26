@@ -33,8 +33,8 @@ $topbar-bg: #612c7d; // FALLBACK
 $topbar-bg: linear-gradient(165deg, $topbar-bg-1 0%,$topbar-bg-2 60%,$topbar-bg-3 60.1%,$topbar-bg-4 100%);
 $topbar-logo-text: #ffffff;
 $topbar-item-text: #ffffff;
-$topbar-item-bg: #78429d;
-$topbar-item-active-bg: #8c47b1;
+$topbar-item-bg: #7E3D92;
+$topbar-item-active-bg: #924DA7;
 
 $genre-title-text: #783189;
 $genre-title-chevron: #aa79c6;
@@ -43,10 +43,10 @@ $app-box-bg: #ffffff;
 $app-box-drp-shdw: #a694b2;
 $app-name-text: #222222;
 $app-author-text: #783189;
-$app-short-description-text: #5b5b5b;
+$app-short-description-text: #666666;
 $app-install-text: #783189;
 $app-installed-text: #b491bc;
-$app-description-text: #222222;
+$app-description-text: #666666;
 $app-install-bg: #eee4f4;
 $app-install-icon-col: #c9add0;
 $star-col-dark: #783189;
@@ -115,6 +115,9 @@ $login-form-font-size: 2rem;
 $login-form-text: $topbar-item-bg;
 $login-form-active-text: $topbar-item-active-bg;
 
+$banner-font-size: 2.9rem;
+$banner-font-color: #594590;
+
 // SIZING
 $button-border-radius: 0.5rem;
 
@@ -122,10 +125,12 @@ $topbar-height: 8.5rem;
 $topbar-logo-icon-size: 6.044rem;
 $topbar-logo-margin-left: 2.5rem;
 $topbar-padding-bottom: 1.667rem;
-$topbar-item-font-size: 1.167rem;
-$topbar-item-padding-lr: 1.833rem;
-$topbar-item-padding-tb: 0.833rem;
-$topbar-item-margin-right: 0.417rem;
+$topbar-item-font-size: 1.6rem;
+$topbar-item-padding-lr: 1.2rem;
+$topbar-item-padding-tb: 0.533rem;
+$topbar-item-margin-right: 0.2rem;
+$topbar-search-height: 2.3rem;
+$topbar-searchbox-bg: #A170AF;
 
 $menu-width: 26.667rem;
 $menu-item-padding-left: 2.5rem;
@@ -156,20 +161,20 @@ $app-image-height: 13.25rem;
 $app-image-large-width: 29.15rem;
 $app-image-large-max-height: 25rem;
 $app-image-large-margin-right: 2.5rem;
-$app-name-font-size: 1.667rem;
-$app-name-large-font-size: 2.9rem;
-$app-name-line-height: 4.15rem;
-$app-short-description-font-size: 1.4rem;
-$app-short-description-large-font-size: 1.667rem;
-$app-short-description-line-height: 2.5rem;
+$app-name-font-size: 1.9rem;
+$app-name-large-font-size: 3.5rem;
+$app-name-line-height: 3.7rem;
+$app-short-description-font-size: 1.5rem;
+$app-short-description-large-font-size: 2.1rem;
+$app-short-description-line-height: 2.1rem;
 $app-author-font-size: 1.4rem;
 $app-author-large-font-size: 1.667rem;
 $app-author-line-height: 2.5rem;
-$app-description-large-font-size: 1.333rem;
+$app-description-large-font-size: 1.5rem;
 $star-font-size: 1.167rem;
 $star-line-height: 2.5rem;
-$app-install-font-size: 1.4rem;
-$app-install-padding-tb: 0.25rem;
+$app-install-font-size: 1.6rem;
+$app-install-padding-tb: 0.35rem;
 $app-install-padding-lr: 1.167rem;
 $app-price-font-size: 1.4rem;
 $app-install-price-line-height: 2.5rem;
@@ -233,3 +238,5 @@ $or-gap: 13.3rem;
 $large-button-font-size: 2.39rem;
 $large-button-padding-tb: 2.25rem;
 $large-button-padding-lr: 2.95rem;
+
+$infinity: 10000em;
